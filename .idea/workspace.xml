@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0ae22276-6766-4917-ac3c-a085e473b0f3" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1QC7TRTBdI2UADKcUsUVfl8PDNI" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\hassa\Desktop\Hassan Site\PortfolioSite\images\hotel" />
+      <recent name="C:\Users\user\Desktop\Portfolio Website\Portfolio Website\images" />
+      <recent name="C:\Users\user\Desktop\Portfolio Website" />
+      <recent name="C:\Users\user\Desktop\Portfolio Website\images\qms" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\hassa\Desktop\Hassan Site\PortfolioSite\images" />
+      <recent name="C:\Users\hassa\Desktop\Hassan Site\PortfolioSite\images\hotel" />
+      <recent name="C:\Users\hassa\Desktop\Hassan Site\PortfolioSite\images\qms" />
+      <recent name="C:\Users\hassa\Desktop\Hassan Site\PortfolioSite\images\composer" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0ae22276-6766-4917-ac3c-a085e473b0f3" name="Default Changelist" comment="" />
+      <created>1567262731031</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1567262731031</updated>
+      <workItem from="1567262732224" duration="39337000" />
+      <workItem from="1567510117750" duration="756000" />
+      <workItem from="1567558830416" duration="24886000" />
+      <workItem from="1567745155516" duration="20688000" />
+      <workItem from="1567860354307" duration="6791000" />
+      <workItem from="1567937230599" duration="4012000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+</project>
