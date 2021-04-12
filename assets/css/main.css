@@ -25,6 +25,9 @@ section, summary, time, mark, audio, video {
     vertical-align: baseline;
 }
 
+.text-button {
+    font-size: 14px;
+}
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
     display: block;
