@@ -1,116 +1,140 @@
 <!DOCTYPE HTML>
-<!--
-	Hyperspace by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
+<html lang="en">
 
 <head>
-    <title>Hassan Ahmed</title>
+    <title>Hotel Management System — Hassan Ahmed</title>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-    <link rel="stylesheet" href="assets/css/main.css" />
-    <noscript>
-        <link rel="stylesheet" href="assets/css/noscript.css" />
-    </noscript>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/fontawesome-all.min.css" />
+    <link rel="stylesheet" href="assets/css/portfolio.css" />
 </head>
 
-<body class="is-preload">
+<body>
 
-    <!-- Header -->
-    <header id="header">
-        <a href="index.html" class="title">Home</a>
-        <nav>
-            <ul>
-                <li>
-                    <a class="active">Projects</a>
-                </li>
-                <li>
-                    <a href="./hotel.html" class="active">Hotel Management System</a>
-                </li>
-                <li>
-                    <a href="signage.html">Digital Signage</a>
-                </li>
-                <li>
-                    <a href="billboard.html">Billboard Management System</a>
-                </li>
-            </ul>
-        </nav>
-    </header>
-
-    <!-- Wrapper -->
-    <div id="wrapper">
-
-        <!-- Main -->
-        <section id="main" class="wrapper">
-            <div class="inner">
-                <h1 class="major">Hotel Management System</h1>
-                <p>
-                    <strong>A web platform for hotel receptionists to check-in guests, create room bookings and redeem vouchers</strong>
-                </p>
-                <span class="image fit">
-                    <img src="images/hotel/hotel-1.PNG" alt="Hotel Dashboard" />
-                </span>
-
-                <h2>Overview</h2>
-                <p>This dashboard was developed to digitize the hotel's room booking and voucher system to enable the hotel
-                    manager to easily manage staff and bookings. The analytics visualizes trends in guest booking activity
-                    and preferences allowing the hotel to make better business decisions based on these trends.
-                </p>
-
-                <!-- <h2>Technologies Used</h2>
-                <p> React, Redux, Node.js. JavaScript, TypeScript, MongoDB, HTML5 & CSS3.
-                    
-                </p> -->
-
-                <h2>Main Features</h2>
-                <p>
-                    - An analytics page showing user activity, number of hotel guests and membership and voucher redemption summary.
-                    <br/> - A booking page for creating room bookings. A summary of active, pending and cancelled bookings is
-                    shown here.
-                    <br/> - An access control module allowing a administrators to restrict user access to only the relevent features
-                    for performing their work. for example : A front desk receptionist can only add hotel guests and create
-                    room and voucher bookings. A supervisor can add new users to the dashboard and view user activity, disable
-                    users and configure the dashboard by adding hotel and membership details.
-                </p>
-                <h2>See it in action</h2>
-                <div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;margin-top: 25px;">
-                    <iframe src="https://www.youtube.com/embed/uwMoNFzPizI?rel=0" style="border: 0; top: 0; left: 0; width: 100%; height: 100%; position: absolute;"
-                        allowfullscreen scrolling="no" modestbranding controls=0 allow="encrypted-media; accelerometer; clipboard-write; gyroscope; picture-in-picture"></iframe>
-                </div>
-            </div>
-        </section>
-
-
-
-
-
-        <!-- <div style="left: 10%; width: 80%; height: 0; position: relative; padding-bottom: 56.25%;margin-top: 25px;">
-            <iframe src="https://www.youtube.com/embed/T0w0-P50YkA?rel=0" style="border: 0; top: 0; left: 0; width: 100%; height: 100%; position: absolute;"
-                allowfullscreen scrolling="no" allow="encrypted-media; accelerometer; clipboard-write; gyroscope; picture-in-picture"></iframe>
-        </div> -->
-
-    </div>
-
-    <!-- Footer -->
-    <footer id="footer" class="wrapper alt">
-        <div class="inner">
-            <ul class="menu">
-                <li>&copy; Hassan Ahmed. All rights reserved.</li>
+    <!-- Navigation -->
+    <nav class="nav" id="nav">
+        <div class="nav-inner">
+            <a href="index.html" class="nav-logo">Hassan Ahmed</a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="index.html#about"    class="nav-link">About</a></li>
+                <li><a href="index.html#skills"   class="nav-link">Skills</a></li>
+                <li><a href="index.html#projects" class="nav-link">Projects</a></li>
+                <li><a href="index.html#articles" class="nav-link">Articles</a></li>
+                <li><a href="index.html#contact"  class="nav-link">Contact</a></li>
             </ul>
         </div>
+    </nav>
+
+    <!-- Project Detail -->
+    <main class="project-detail">
+        <div class="project-detail-inner">
+
+            <!-- Back link -->
+            <a href="index.html#projects" class="back-link">
+                <i class="fas fa-arrow-left"></i> Back to Projects
+            </a>
+
+            <!-- Header -->
+            <div class="project-detail-header">
+                <div class="project-detail-meta">
+                    <span class="project-detail-category">Project</span>
+                    <div class="project-detail-tags">
+                        <span class="tag">React</span>
+                        <span class="tag">Redux</span>
+                        <span class="tag">Node.js</span>
+                        <span class="tag">MongoDB</span>
+                        <span class="tag">TypeScript</span>
+                    </div>
+                </div>
+                <h1 class="project-detail-title">Hotel Management System</h1>
+                <p class="project-detail-subtitle">
+                    A web platform for hotel receptionists to check-in guests, create room bookings and redeem vouchers.
+                </p>
+            </div>
+
+            <!-- Hero image -->
+            <div class="project-detail-image">
+                <img src="images/hotel/hotel-1.PNG" alt="Hotel Management Dashboard" />
+            </div>
+
+            <!-- Content -->
+            <div class="project-detail-content">
+                <div class="project-detail-section">
+                    <h2>Overview</h2>
+                    <p>
+                        This dashboard was developed to digitize the hotel's room booking and voucher system, enabling
+                        the hotel manager to easily manage staff and bookings. The analytics module visualizes trends in
+                        guest booking activity and preferences, allowing the hotel to make better business decisions based
+                        on real data.
+                    </p>
+                </div>
+
+                <div class="project-detail-section">
+                    <h2>Key Features</h2>
+                    <ul class="feature-list">
+                        <li>
+                            <i class="fas fa-check-circle"></i>
+                            Analytics dashboard showing user activity, number of hotel guests, and membership/voucher redemption summaries.
+                        </li>
+                        <li>
+                            <i class="fas fa-check-circle"></i>
+                            Booking page for creating room bookings with a summary of active, pending, and cancelled bookings.
+                        </li>
+                        <li>
+                            <i class="fas fa-check-circle"></i>
+                            Access control module allowing administrators to restrict user access to relevant features only — e.g. front desk receptionists vs. supervisors.
+                        </li>
+                        <li>
+                            <i class="fas fa-check-circle"></i>
+                            Supervisor controls for adding users, viewing user activity, disabling accounts, and configuring hotel details.
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="project-detail-section">
+                    <h2>See It In Action</h2>
+                    <div class="video-thumb" data-video-id="uwMoNFzPizI">
+                        <img src="https://img.youtube.com/vi/uwMoNFzPizI/maxresdefault.jpg" alt="Hotel Management System demo video" />
+                        <div class="video-play-btn">
+                            <span class="play-circle"><i class="fas fa-play"></i></span>
+                            <span class="play-label">Play Video</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-detail-section">
+                    <h2>Screenshots</h2>
+                    <div class="screenshot-grid">
+                        <a href="images/hotel/hotel-2.PNG"  target="_blank"><img src="images/hotel/hotel-2.PNG"  alt="Hotel booking page" /></a>
+                        <a href="images/hotel/hotel-3.PNG"  target="_blank"><img src="images/hotel/hotel-3.PNG"  alt="Hotel guests list" /></a>
+                        <a href="images/hotel/hotel-5.PNG"  target="_blank"><img src="images/hotel/hotel-5.PNG"  alt="Hotel analytics" /></a>
+                        <a href="images/hotel/hotel-6.PNG"  target="_blank"><img src="images/hotel/hotel-6.PNG"  alt="Access control" /></a>
+                        <a href="images/hotel/hotel-7.PNG"  target="_blank"><img src="images/hotel/hotel-7.PNG"  alt="Hotel room management" /></a>
+                        <a href="images/hotel/hotel-8.PNG"  target="_blank"><img src="images/hotel/hotel-8.PNG"  alt="Voucher management" /></a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project nav -->
+            <div class="project-nav">
+                <a href="index.html#projects" class="btn btn-outline">
+                    <i class="fas fa-th-large"></i> All Projects
+                </a>
+                <a href="signage.html" class="btn btn-primary">
+                    Next Project <i class="fas fa-arrow-right"></i>
+                </a>
+            </div>
+
+        </div>
+    </main>
+
+    <footer class="footer">
+        <p>Designed &amp; Built by Hassan Ahmed</p>
     </footer>
 
-    <!-- Scripts -->
-    <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/js/jquery.scrollex.min.js"></script>
-    <script src="assets/js/jquery.scrolly.min.js"></script>
-    <script src="assets/js/browser.min.js"></script>
-    <script src="assets/js/breakpoints.min.js"></script>
-    <script src="assets/js/util.js"></script>
-    <script src="assets/js/main.js"></script>
-
+    <script src="assets/js/portfolio.js"></script>
 </body>
-
 </html>
