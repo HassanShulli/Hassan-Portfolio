@@ -915,6 +915,17 @@ strong { color: var(--white); font-weight: 600; }
     height: 100%;
     border: none;
 }
+/* Block the "Watch on YouTube" watermark in the top-right corner */
+.video-thumb.playing::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 200px;
+    height: 48px;
+    z-index: 10;
+    pointer-events: all;
+}
 .video-thumb img {
     width: 100%;
     display: block;

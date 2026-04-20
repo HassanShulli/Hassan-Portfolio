@@ -291,7 +291,7 @@
     document.querySelectorAll('.video-thumb[data-video-id]').forEach(function (thumb) {
         thumb.addEventListener('click', function () {
             var iframe = document.createElement('iframe');
-            iframe.src = 'https://www.youtube.com/embed/' + thumb.getAttribute('data-video-id') + '?autoplay=1&rel=0';
+            iframe.src = 'https://www.youtube.com/embed/' + thumb.getAttribute('data-video-id') + '?autoplay=1&rel=0&modestbranding=1&iv_load_policy=3';
             iframe.allow = 'autoplay; encrypted-media; picture-in-picture';
             iframe.allowFullscreen = true;
             thumb.classList.add('playing');
